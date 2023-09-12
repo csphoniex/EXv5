@@ -1,0 +1,364 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="aba332ea-80ad-4ede-b7fc-918bde30bffa" name="Changes" comment="0.1">
+      <change afterPath="$PROJECT_DIR$/.github/workflows/qodana_code_quality.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CardServProxy.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CardServProxy.ipr" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CardServProxy.iws" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cardproxy.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cardproxy.sh.ubuntu-autostart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/example/connectors.example.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/example/users.example.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/proxy-reference.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/etc/policy.all" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/etc/protocol.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/bowhttpd.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/bowman.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/bowxml.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/plugins/BetacryptTunnelPlugin/README.BetacryptTunnelPlugin.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/plugins/BetacryptTunnelPlugin/build.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/plugins/BetacryptTunnelPlugin/src/com/bowman/cardserv/BetacryptTunnelPlugin.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/plugins/CacheCoveragePlugin/CacheCoveragePlugin.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/plugins/CacheCoveragePlugin/CacheCoveragePlugin.ipr" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/plugins/CacheCoveragePlugin/README.CacheCoveragePlugin.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/plugins/CacheCoveragePlugin/build.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/plugins/CacheCoveragePlugin/src/com/bowman/cardserv/CacheCoverageMap.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/plugins/CacheCoveragePlugin/src/com/bowman/cardserv/CacheCoveragePlugin.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/plugins/CacheCoveragePlugin/src/com/bowman/cardserv/CacheForwarder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/plugins/CacheCoveragePlugin/src/com/bowman/cardserv/CacheTester.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/plugins/CacheCoveragePlugin/src/com/bowman/cardserv/HttpCacheForwarder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/plugins/CacheCoveragePlugin/src/com/bowman/cardserv/ServiceCacheEntry.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/plugins/CacheCoveragePlugin/src/com/bowman/cardserv/SourceCacheEntry.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/plugins/CacheCoveragePlugin/src/com/bowman/cardserv/UdpCacheForwarder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/plugins/CacheCoveragePlugin/src/com/bowman/cardserv/session/CacheDummySession.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/plugins/CacheCoveragePlugin/src/com/bowman/cardserv/status-commands.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/plugins/CacheCoveragePlugin/web/load.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/plugins/CacheCoveragePlugin/web/open/xslt/cws-status-resp.xsl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/plugins/ConaxConnector/README.ConaxConnector.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/plugins/ConaxConnector/build.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/plugins/ConaxConnector/changelog.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/plugins/ConaxConnector/src/com/bowman/cardserv/cws/ConaxCwsConnector.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/plugins/DcwFilterPlugin/DcwFilterPlugin.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/plugins/DcwFilterPlugin/DcwFilterPlugin.ipr" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/plugins/DcwFilterPlugin/README.DcwFilterPlugin.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/plugins/DcwFilterPlugin/build.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/plugins/DcwFilterPlugin/src/com/bowman/cardserv/DcwFilterPlugin.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/plugins/DreamboxPlugin/DreamboxPlugin.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/plugins/DreamboxPlugin/DreamboxPlugin.ipr" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/plugins/DreamboxPlugin/README.DreamboxPlugin.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/plugins/DreamboxPlugin/build.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/plugins/DreamboxPlugin/src/com/bowman/cardserv/AgentSshd.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/plugins/DreamboxPlugin/src/com/bowman/cardserv/AgentWeb.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/plugins/DreamboxPlugin/src/com/bowman/cardserv/BoxMetaData.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/plugins/DreamboxPlugin/src/com/bowman/cardserv/BoxOperation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/plugins/DreamboxPlugin/src/com/bowman/cardserv/BoxRegistry.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/plugins/DreamboxPlugin/src/com/bowman/cardserv/DreamboxPlugin.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/plugins/DreamboxPlugin/src/com/bowman/cardserv/DummyShellFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/plugins/DreamboxPlugin/src/com/bowman/cardserv/FileUploadPermission.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/plugins/DreamboxPlugin/src/com/bowman/cardserv/ctrl-commands.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/plugins/DreamboxPlugin/src/com/bowman/cardserv/sshd-logging.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/plugins/DreamboxPlugin/src/com/bowman/cardserv/status-commands.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/plugins/DreamboxPlugin/web/fetch_binaries.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/plugins/DreamboxPlugin/web/installer-template.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/plugins/DreamboxPlugin/web/load.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/plugins/DreamboxPlugin/web/open/cspagent.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/plugins/DreamboxPlugin/web/open/scripts/agent_update.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/plugins/DreamboxPlugin/web/open/scripts/clean_tmp.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/plugins/DreamboxPlugin/web/open/scripts/osd.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/plugins/DreamboxPlugin/web/open/scripts/run_ifconfig.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/plugins/DreamboxPlugin/web/open/scripts/set_interval.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/plugins/DreamboxPlugin/web/open/scripts/set_proxy.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/plugins/DreamboxPlugin/web/open/scripts/ssh_tunnel.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/plugins/DreamboxPlugin/web/open/scripts/zap.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/plugins/DreamboxPlugin/web/open/xslt/cws-status-resp.xsl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/plugins/DreamboxPlugin/web/setup_mgcamd.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/plugins/DreamboxPlugin/web/test.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/plugins/EmmAnalyzerPlugin/EmmAnalyzerPlugin.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/plugins/EmmAnalyzerPlugin/EmmAnalyzerPlugin.ipr" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/plugins/EmmAnalyzerPlugin/README.EmmAnalyzerPlugin.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/plugins/EmmAnalyzerPlugin/build.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/plugins/EmmAnalyzerPlugin/src/com/bowman/cardserv/EmmAnalyzerPlugin.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/plugins/GeoipPlugin/GeoipPlugin.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/plugins/GeoipPlugin/GeoipPlugin.ipr" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/plugins/GeoipPlugin/README.GeoipPlugin.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/plugins/GeoipPlugin/build.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/plugins/GeoipPlugin/src/com/bowman/cardserv/GeoipPlugin.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/plugins/GeoipPlugin/src/com/maxmind/geoip/Country.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/plugins/GeoipPlugin/src/com/maxmind/geoip/DatabaseInfo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/plugins/GeoipPlugin/src/com/maxmind/geoip/Location.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/plugins/GeoipPlugin/src/com/maxmind/geoip/LookupService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/plugins/GeoipPlugin/src/com/maxmind/geoip/Region.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/plugins/GeoipPlugin/src/com/maxmind/geoip/regionName.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/plugins/GeoipPlugin/src/com/maxmind/geoip/timeZone.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/plugins/GeoipPlugin/web/googlemap.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/plugins/GeoipPlugin/web/load.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/plugins/IrdetoPlugin/IrdetoPlugin.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/plugins/IrdetoPlugin/IrdetoPlugin.ipr" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/plugins/IrdetoPlugin/README.IrdetoPlugin.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/plugins/IrdetoPlugin/build.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/plugins/IrdetoPlugin/src/com/bowman/cardserv/IrdetoPlugin.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/plugins/MessagingPlugin/MessagingPlugin.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/plugins/MessagingPlugin/MessagingPlugin.ipr" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/plugins/MessagingPlugin/README.MessagingPlugin.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/plugins/MessagingPlugin/build.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/plugins/MessagingPlugin/src/com/bowman/cardserv/MessagingPlugin.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/plugins/MessagingPlugin/src/com/bowman/cardserv/TriggerMessenger.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/plugins/MessagingPlugin/triggers.example.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/plugins/MySQLWebManagementPlugin/MySQLWebManagementPlugin.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/plugins/MySQLWebManagementPlugin/MySQLWebManagementPlugin.ipr" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/plugins/MySQLWebManagementPlugin/README.MySQLWebManagementPlugin.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/plugins/MySQLWebManagementPlugin/build.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/plugins/MySQLWebManagementPlugin/src/com/bowman/cardserv/MySQLWebManagementPlugin.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/plugins/MySQLWebManagementPlugin/src/com/bowman/cardserv/ctrl-commands.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/plugins/MySQLWebManagementPlugin/src/com/bowman/cardserv/status-commands.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/plugins/MySQLWebManagementPlugin/web/load.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/plugins/MySQLWebManagementPlugin/web/open/xslt/cws-status-resp.xsl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/plugins/ProviderIdentPlugin/ProviderIdentPlugin.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/plugins/ProviderIdentPlugin/ProviderIdentPlugin.ipr" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/plugins/ProviderIdentPlugin/README.ProviderIdentPlugin.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/plugins/ProviderIdentPlugin/build.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/plugins/ProviderIdentPlugin/src/com/bowman/cardserv/ProviderIdentPlugin.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/plugins/SoftNdsPlugin/README.SoftNdsPlugin.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/plugins/SoftNdsPlugin/SoftNdsPlugin.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/plugins/SoftNdsPlugin/SoftNdsPlugin.ipr" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/plugins/SoftNdsPlugin/build.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/plugins/SoftNdsPlugin/src/com/bowman/cardserv/SoftNdsPlugin.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/qodana.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/META-INF/MANIFEST.MF" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/bowman/cardserv/AcceptThread.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/bowman/cardserv/AdvXmlUserManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/bowman/cardserv/CaProfile.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/bowman/cardserv/CaidProviderPair.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/bowman/cardserv/CamdNetMessage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/bowman/cardserv/CardData.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/bowman/cardserv/CardServProxy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/bowman/cardserv/ClusteredCache.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/bowman/cardserv/ConfigException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/bowman/cardserv/CspConnection.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/bowman/cardserv/CspNetMessage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/bowman/cardserv/DefaultCache.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/bowman/cardserv/ListenPort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/bowman/cardserv/LoggingPlugin.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/bowman/cardserv/MessageCacheMap.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/bowman/cardserv/MySQLUserManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/bowman/cardserv/NewcamdConnection.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/bowman/cardserv/ProxyConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/bowman/cardserv/SidCacheLinker.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/bowman/cardserv/SimpleUserManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/bowman/cardserv/XmlUserManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/bowman/cardserv/ca.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/bowman/cardserv/crypto/DESUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/bowman/cardserv/crypto/FishUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/bowman/cardserv/crypto/MD5Crypt.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/bowman/cardserv/cws/AbstractCwsConnector.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/bowman/cardserv/cws/ChameleonCwsConnector.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/bowman/cardserv/cws/ConnectorSelection.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/bowman/cardserv/cws/CspCwsConnector.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/bowman/cardserv/cws/CwsConnectorManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/bowman/cardserv/cws/CwsServiceMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/bowman/cardserv/cws/NewcamdCwsConnector.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/bowman/cardserv/cws/QueueEntry.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/bowman/cardserv/cws/RadegastCwsConnector.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/bowman/cardserv/cws/ServiceMapping.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/bowman/cardserv/interfaces/CacheHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/bowman/cardserv/interfaces/CacheListener.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/bowman/cardserv/interfaces/CamdConstants.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/bowman/cardserv/interfaces/CamdMessageListener.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/bowman/cardserv/interfaces/CommandManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/bowman/cardserv/interfaces/CwsConnector.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/bowman/cardserv/interfaces/CwsListener.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/bowman/cardserv/interfaces/CwsSelector.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/bowman/cardserv/interfaces/EcmTransactionListener.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/bowman/cardserv/interfaces/GHttpConstants.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/bowman/cardserv/interfaces/LogListener.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/bowman/cardserv/interfaces/MultiCwsConnector.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/bowman/cardserv/interfaces/MySQLConstants.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/bowman/cardserv/interfaces/ProxyPlugin.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/bowman/cardserv/interfaces/ProxySession.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/bowman/cardserv/interfaces/ReplyFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/bowman/cardserv/interfaces/StaleEntryListener.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/bowman/cardserv/interfaces/UserManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/bowman/cardserv/interfaces/UserStatusListener.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/bowman/cardserv/interfaces/XmlConfigurable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/bowman/cardserv/mysql/CacheEntry.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/bowman/cardserv/mysql/ConnectionPoolManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/bowman/cardserv/mysql/MySQLConnection.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/bowman/cardserv/mysql/Profile.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/bowman/cardserv/mysql/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/bowman/cardserv/mysql/UserCacheManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/bowman/cardserv/proxy.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/bowman/cardserv/rmi/AbstractStatus.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/bowman/cardserv/rmi/CacheStatus.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/bowman/cardserv/rmi/CwsStatus.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/bowman/cardserv/rmi/IpCheckServerSocket.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/bowman/cardserv/rmi/IpCheckSocketFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/bowman/cardserv/rmi/PluginStatus.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/bowman/cardserv/rmi/PortStatus.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/bowman/cardserv/rmi/ProfileStatus.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/bowman/cardserv/rmi/RemoteEvent.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/bowman/cardserv/rmi/RemoteHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/bowman/cardserv/rmi/RemoteListener.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/bowman/cardserv/rmi/RemoteProxy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/bowman/cardserv/rmi/SessionStatus.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/bowman/cardserv/rmi/UserStatus.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/bowman/cardserv/session/AbstractSession.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/bowman/cardserv/session/CspSession.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/bowman/cardserv/session/EcmTransaction.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/bowman/cardserv/session/ExtNewcamdSession.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/bowman/cardserv/session/GHttpSession.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/bowman/cardserv/session/NewcamdSession.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/bowman/cardserv/session/RadegastSession.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/bowman/cardserv/session/SeenEntry.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/bowman/cardserv/session/SessionManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/bowman/cardserv/test/RemoteTestClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/bowman/cardserv/tv/CccamParser.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/bowman/cardserv/tv/DvbviewerParser.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/bowman/cardserv/tv/NeutrinoParser.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/bowman/cardserv/tv/ServicesParser.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/bowman/cardserv/tv/TvService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/bowman/cardserv/util/CustomFormatter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/bowman/cardserv/util/PluginClassLoader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/bowman/cardserv/util/ProxyLogger.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/bowman/cardserv/util/ProxyXmlConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/bowman/cardserv/util/ProxyXmlTracer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/bowman/cardserv/util/SimpleTlvBlob.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/bowman/cardserv/util/TimedAverageList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/bowman/cardserv/util/UnixUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/bowman/cardserv/util/WrappedFileHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/bowman/cardserv/util/XmlStringBuffer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/bowman/cardserv/web/Command.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/bowman/cardserv/web/CtrlCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/bowman/cardserv/web/CtrlCommandResult.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/bowman/cardserv/web/FileFetcher.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/bowman/cardserv/web/GHttpBackend.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/bowman/cardserv/web/StatusCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/bowman/cardserv/web/WebBackend.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/bowman/cardserv/web/XmlHelper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/bowman/cardserv/web/ctrl-commands.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/bowman/cardserv/web/status-commands.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trtest/META-INF/MANIFEST.MF" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/txt/README.0.9.0.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/txt/README.ClusteredCache.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/txt/README.Compiling.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/txt/README.HttpXmlApi.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/txt/README.MySQLUserManager.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/txt/README.Optimization.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/txt/README.Plugins.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/txt/README.XmlUserManager.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/txt/README.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/txt/changelog.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/txt/jsw-win32/jsw-win32.zip" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/txt/jsw-win32/jsw/InstallProxy-NT.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/txt/jsw-win32/jsw/UninstallProxy-NT.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/txt/jsw-win32/jsw/wrapper.conf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/txt/jsw-win32/jsw/wrapper.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/txt/jsw-win32/jsw/wrapper.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/txt/jsw-win32/jsw/wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/api-test.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/cs-status.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/css/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/images/bigrotation.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/images/bottom_arrow.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/images/main_bg.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/images/shdw_794_invert.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/images/sub_bg.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/js/bowutil.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/js/bowweb.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/js/cm/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/js/cm/codemirror.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/js/cm/editor.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/js/cm/parsexml.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/js/cm/select.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/js/cm/stringstream.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/js/cm/tokenize.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/js/cm/undo.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/js/cm/util.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/js/cm/xmlcolors.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/js/cs-status.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/picon/readme.picon.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/picon/unknown.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/xslt/cws-status-resp.xsl" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="QODANA_PROBLEMS_VIEW_TAB" />
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 3
+}]]></component>
+  <component name="ProjectId" id="2VGwiGS1PB8nJ3orWHzqV703xKa" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "master",
+    "last_opened_file_path": "C:/CSP",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "run.code.analysis.last.selected.profile": "pProject Default",
+    "settings.editor.selected.configurable": "org.jetbrains.plugins.github.ui.GithubSettingsConfigurable",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="QodanaHighlightedReportService">
+    <option name="localRunNotPublishedPersistedInfo">
+      <LocalReportPersistedInfo>
+        <option name="path" value="C:\Users\Administrator\AppData\Local\Temp\2\qodana_output\qodana.sarif.json" />
+        <option name="reportGuid" value="2b02a4a2-20d3-4fcb-94d9-f41bf952108b" />
+        <option name="reportName" value="CardServProxy/qodana/2023-09-11" />
+      </LocalReportPersistedInfo>
+    </option>
+  </component>
+  <component name="QodanaIsSelectedPersistenceService">
+    <option name="selectedOrLoading" value="true" />
+  </component>
+  <component name="QodanaReportsService">
+    <option name="descriptions">
+      <ReportDescription localRun="true" path="C:\Users\Administrator\AppData\Local\Temp\2\qodana_output\qodana.sarif.json" reportGuid="2b02a4a2-20d3-4fcb-94d9-f41bf952108b" reportId="CardServProxy/qodana/2023-09-11" />
+    </option>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="SvnConfiguration" cleanupOnStartRun="true">
+    <configuration />
+    <supportedVersion>125</supportedVersion>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="aba332ea-80ad-4ede-b7fc-918bde30bffa" name="Changes" comment="" />
+      <created>1694475850499</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1694475850499</updated>
+      <workItem from="1694475853084" duration="1507000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="0.1" />
+    <option name="LAST_COMMIT_MESSAGE" value="0.1" />
+  </component>
+</project>
